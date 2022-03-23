@@ -12,10 +12,11 @@ body {
   grid-column-gap: 10px;
   height: 100vh;
   margin: 0;
+  font-size: large ;
   }  
 header, footer, article, nav, div {
   padding: 1.2em;
-  background: gold;
+  background: rgb(58, 214, 10);
   }
 #pageHeader {
   grid-area: header;
