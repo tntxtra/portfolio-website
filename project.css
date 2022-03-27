@@ -1,7 +1,7 @@
 
 body {
   /* Typography Declarations */
-  color:chocolate;
+  color:rgb(46, 18, 201);
   font-size: 1em;
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   background-color: #0fd0d6;
@@ -20,7 +20,7 @@ body {
   height: 100vh;
   margin: 0;
   font-size: large ;
-  background-color: chocolate;
+  background-color: rgb(46, 18, 201);
   
   }  
 
