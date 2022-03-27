@@ -1,5 +1,12 @@
 
-
+body {
+  /* Typography Declarations */
+  color:chocolate;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #0fd0d6;
+  text-shadow: 0 0 3px #18e93a;
+}
 body { 
   display: grid;
   grid-template-areas: 
@@ -13,12 +20,13 @@ body {
   height: 100vh;
   margin: 0;
   font-size: large ;
-  background-color: black;
+  background-color: chocolate;
+  
   }  
 
 header, footer, article, nav, div {
   padding: 1.2em;
-  background: rgb(58, 214, 10);
+  background: #0fd0d6 ;
   
   }
   
@@ -50,4 +58,15 @@ header, footer, article, nav, div {
     grid-template-columns: 1fr;
  }
 }
-
+a:link {
+  color: #e6e220;
+}
+a:visited {
+color: #ff00ff;
+}
+a:hover {
+color: #d86d0a;
+}
+a:active {
+  color: #ff0000;
+}

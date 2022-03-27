@@ -1,5 +1,7 @@
 * {box-sizing:border-box}
-
+.body{
+    background-color: rgb(18, 20, 20);
+}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -20,7 +22,7 @@
   width: auto;
   margin-top: -23px;
   padding: 17px;
-  color: grey;
+  color: rgb(51, 41, 41);
   font-weight: bold;
   font-size: 19px;
   transition: 0.4s ease;
@@ -36,7 +38,7 @@
 
 /*when the user hovers,add a black background with some little opacity */
 .Back:hover, .forward:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(214, 57, 57, 0.8);
 }
 
 /* Caption Info */
@@ -72,7 +74,7 @@
 }
 
 .enable, .dots:hover {
-  background-color: #717161;
+  background-color: #e0e041;
 }
 
 /* Faint animation */
