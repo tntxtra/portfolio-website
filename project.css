@@ -70,3 +70,29 @@ color: #d86d0a;
 a:active {
   color: #ff0000;
 }
+.topnav {
+  background-color: #022e3000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: none;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration:solid;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  
+  color: #FFEA00;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+ 
+  color: #D500F9;
+}
