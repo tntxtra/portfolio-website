@@ -1,3 +1,20 @@
+.container {
+    position: relative;
+  }
+  
+  .center {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: scale(0.5) translate(-1%, -80%);
+    font-size: 10px;
+  }
+  
+  img { 
+    width:auto;
+    height:auto;
+    opacity: 0.3;
+  }
 body {
     /* Typography Declarations */
     color:rgb(46, 18, 201);
