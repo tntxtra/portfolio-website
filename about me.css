@@ -30,13 +30,7 @@ body {
   text-align: center;
 }
 
-.masthead {
-  padding: 6em 0;
-  background-image: url('https://i.imgur.com/yGmrlyg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-top: solid 1em rgb(46, 18, 201);
-}
+
 
 .masthead-intro {
     /* Layout Declarations */
@@ -96,9 +90,9 @@ section > h1 {
 
 .masthead {
   padding: 6em 0;
-  background-image: url('https://i.imgur.com/yGmrlyg.jpg');
+  background-image: url('https://image.shutterstock.com/image-photo/closeup-chess-pieces-white-knight-260nw-1963195774.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat ;
   border-top: solid 1em rgb(46, 18, 201);
 }
 
@@ -187,7 +181,6 @@ a {
   font-size: 25px;
 }
 
-/* Change the color of links on hover */
 .topnav a:hover {
   
   color: #FFEA00;
@@ -197,4 +190,8 @@ a {
 .topnav a.active {
  
   color: #D500F9;
+}
+
+.topnav a.visited {
+  color: #0f0f0f;
 }

@@ -19,15 +19,15 @@ body {
   }
   
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(17, 167, 84, 0.2);
     margin: 8px;
   }
   
   .about-section {
     padding: 50px;
     text-align: center;
-    background-color: #474e5d;
-    color: white;
+    background-color: #0fd0d6;
+    color: rgb(46, 18, 201);
   }
   
   .container {
@@ -41,7 +41,7 @@ body {
   }
   
   .title {
-    color: grey;
+    color: #0fd0d6;
   }
   
   .button {
@@ -49,7 +49,7 @@ body {
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: white;
+    color: #0fd0d6;
     background-color: #000;
     text-align: center;
     cursor: pointer;
@@ -57,7 +57,7 @@ body {
   }
   
   .button:hover {
-    background-color: #555;
+    background-color: rgb(209, 17, 216);
   }
   
   @media screen and (max-width: 650px) {
