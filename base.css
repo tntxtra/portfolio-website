@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: rgb(46,18,201);
   }
   
   html {
@@ -19,19 +20,21 @@ body {
   }
   
   .card {
-    box-shadow: 0 4px 8px 0 rgba(17, 167, 84, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(19, 212, 106, 0.2);
     margin: 8px;
+    background-color: rgb(16, 117, 212);
   }
   
   .about-section {
     padding: 50px;
     text-align: center;
     background-color: #0fd0d6;
-    color: rgb(46, 18, 201);
+    color: rgb(46,18,201);
   }
   
   .container {
     padding: 0 16px;
+    color:#6812ad
   }
   
   .container::after, .row::after {
@@ -41,23 +44,23 @@ body {
   }
   
   .title {
-    color: #0fd0d6;
+    color: #1c0fd6;
   }
   
   .button {
     border: none;
-    outline: 0;
+    outline:gold;
     display: inline-block;
-    padding: 8px;
-    color: #0fd0d6;
-    background-color: #000;
-    text-align: center;
+    padding: 5px;
+    color: #152627;
+    background-color: #20d892;
+    text-align:left;
     cursor: pointer;
     width: 100%;
   }
   
   .button:hover {
-    background-color: rgb(209, 17, 216);
+    background-color: gold;
   }
   
   @media screen and (max-width: 650px) {
@@ -66,3 +69,23 @@ body {
       display: block;
     }
   }
+  a:link{
+    color:gold 
+}
+a:visited{
+    clor: hsl(0,5%, 15%)
+}
+a:hover{
+    color:gold;
+}
+a:active{
+    color:red;
+}
+.topnav a {
+  float: left;
+  color: none;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration:solid;
+  font-size: 25px;
+}
