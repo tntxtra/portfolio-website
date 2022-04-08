@@ -1,8 +1,9 @@
 body {
     color:rgb(46,18,201);
     font-size: 3em;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #0fd0d6;
+    
     text-shadow: 0 0 3px #18e93a;
 }
 body{
@@ -19,6 +20,7 @@ body{
     margin: 0;
     font-size: large;
     background-color: rgb(46,18,201);
+    color: none;
     }
 header, footer, article, nav, div{
     padding: 1.2em;
