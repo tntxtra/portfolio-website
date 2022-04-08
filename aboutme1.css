@@ -1,0 +1,177 @@
+.container {
+    position: relative;
+  }
+  
+  .center {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: scale(0.5) translate(-1%, -80%);
+    font-size: 10px;
+  }
+  
+  img { 
+    width:auto;
+    height:auto;
+    opacity: 0.3;
+  }
+  body {
+    /* Typography Declarations */
+    color:rgb(46, 18, 201);
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: #0fd0d6;
+    text-shadow: 0 0 3px #18e93a;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+.masthead-intro {
+    /* Layout Declarations */
+    margin-bottom: 0.1em;
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 5em;
+}
+
+.masthead-heading {
+    /* Layout Declarations */
+    color: rgb(46, 18, 201);
+    margin-top: -0.2em;
+    /* Typography Declarations */
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+}
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+.questions-section > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 2em 0 1em 0;
+}
+section > h1 {
+    margin-top: 2em;
+}
+
+.content-footer,
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('https://image.shutterstock.com/image-photo/closeup-chess-pieces-white-knight-260nw-1963195774.jpg');
+  background-size: cover;
+  background-repeat:no-repeat ;
+  border-top: solid 1em rgb(46, 18, 201);
+}
+.masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+      font-size: 2em;
+  }
+  
+  .masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  }
+  .introduction > p,
+.location > p,
+.content-footer > p {
+    /* Typography Declarations */
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+h2 {
+    /* Typography Declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 5em;
+    font-weight: bold;
+}
+.introduction-section,
+.location-section,
+.questions-section {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+.content-footer {
+  margin: 50px 0;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #0fd0d6;
+  text-decoration: none;
+}
+.social > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.content-footer > p {
+  color: #0ecf1e;
+  text-shadow: 0 0 3px #18e93a;
+}
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #bd0cbd;
+    text-shadow: 0 0 13px #18e93a;
+    
+}
+.topnav {
+    background-color: #022e3000;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: none;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration:solid;
+    font-size: 25px;
+  }
+  
+  .topnav a:hover {
+    
+    color: #FFEA00;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+   
+    color: #D500F9;
+  }
+  
+  .topnav a.visited {
+    color: #0f0f0f;
+  }
